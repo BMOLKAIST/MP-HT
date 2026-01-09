@@ -56,7 +56,7 @@ and expects variables such as:
 ## Quick start
 
 1. Clone this repository and place all `.m` files in the repo folder.
-2. Download the dataset MAT file(s) from IEEE DataPort.
+2. Download the dataset MAT file from IEEE DataPort.
 3. Put `dataset_fig3.mat` in the same folder as `demo.m` (or edit the `load(...)` line in `demo.m`).
 4. In MATLAB:
    ```matlab
