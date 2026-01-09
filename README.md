@@ -1,4 +1,4 @@
-# MP-HT
+# Supplements for _Morphology-Preserving Holotomography: Quantitative Analysis of 3D Organoid Dynamics
 
 **Supplements for _Morphology-Preserving Holotomography: Quantitative Analysis of 3D Organoid Dynamics_**  
 MATLAB reference implementation for the MP-HT (morphology-preserving holotomography) representation and the Fig. 3 demonstration pipeline.
