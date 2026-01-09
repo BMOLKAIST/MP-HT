@@ -41,6 +41,10 @@ The `.mat` dataset files are hosted separately on IEEE DataPort:
 
 - https://ieee-dataport.org/documents/supplementary-dataset-morphology-preserving-holotomography-quantitative-analysis-3d
 
+### Dataset citation (IEEE DataPort)
+
+ChulMin Oh, Jimin Cho, Juyeon Park, Hoyeon Lee, and YongKeun Park, “Supplementary Dataset for Morphology-Preserving Holotomography: Quantitative Analysis of 3D Organoid Dynamics.” IEEE DataPort.
+
 ### Expected file name / variables
 
 `demo.m` assumes a MAT file named:
