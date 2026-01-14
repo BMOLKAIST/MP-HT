@@ -1,11 +1,9 @@
 function RI_filtered_log = MP_HT(RI, NAc, NAo, ResolutionX, ResolutionZ, RImedium, wavelength)
-%MP_HT  Multi-Peak Holotomography (MP-HT) transform used in the Fig.3 demo.
+%MP_HT  Morphology-Preserving Holotomography (MP-HT) transform used in the Fig.3 demo.
 %
-% This function is a commented/refactored version of the original MP_HT.m.
-% The goal is readability WITHOUT changing any numerical results.
 %
 % Inputs
-%   RI           : RI tomogram (Y x X x Z)
+%   RI           : RI tomogram
 %   NAc, NAo     : condenser/objective NA
 %   ResolutionX  : lateral voxel size (same unit as wavelength)
 %   ResolutionZ  : axial voxel size
@@ -13,10 +11,9 @@ function RI_filtered_log = MP_HT(RI, NAc, NAo, ResolutionX, ResolutionZ, RImediu
 %   wavelength   : illumination wavelength
 %
 % Output
-%   RI_filtered_log : log10(MP-HT response), cropped to remove z-padding
+%   RI_filtered_log : log10(MP-HT response)
 %
 % Notes
-%   - Uses a symmetric z-padding to mitigate boundary artifacts.
 %   - GPU acceleration is enabled by default (useGPU = true).
 % -------------------------------------------------------------------------
 
